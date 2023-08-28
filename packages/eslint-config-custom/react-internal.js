@@ -35,5 +35,9 @@ module.exports = {
   // add rules configurations here
   rules: {
     "import/no-default-export": "off",
+    "quotes": ["error", "single", { "avoidEscape": true }],
+    "semi": ["error", "never"],
+    "no-tabs": ["error"],
+    "indent": ["error", 2],
   },
 };
