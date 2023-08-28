@@ -1,14 +1,16 @@
-import * as React from "react";
+import React from 'react'
 
-interface Props {
-  children?: React.ReactNode;
+interface {{ pascalCase name }}Props {
+  children?: React.ReactNode
 }
 
-export const {{ pascalCase name }} = ({ children }: Props) => {
+function {{ pascalCase name }}({children}: {{ pascalCase name }}Props): JSX.Element {
   return (
     <div>
       <h1>{{ name }}</h1>
       {children}
     </div>
-  );
-};
+  )
+}
+
+export default {{ pascalCase name }}
