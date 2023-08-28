@@ -1,10 +1,10 @@
-import { Button, Header } from "ui";
+import { WalletAvatar, WalletButton } from "ui";
 
 export default function Page(): JSX.Element {
   return (
     <>
-      <Header text="Docs" />
-      <Button />
+      <WalletAvatar />
+      <WalletButton />
     </>
   );
 }
